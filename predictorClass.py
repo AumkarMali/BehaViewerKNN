@@ -2,7 +2,6 @@ import json
 import pandas as pd
 from sklearn.ensemble import HistGradientBoostingClassifier
 from NumericalCategorization import brand_mapping, plan_mapping, gender_mapping, provider_mapping
-#
 
 # Load JSON data from the file
 def load_user_data(filename):
@@ -12,12 +11,18 @@ def load_user_data(filename):
 
 # Function to train and use the HistGradientBoostingClassifier
 def gradientBoostingClassifier(new_user_json):
-    user_data = load_user_data('data.json')  # get json file of large user data
+    user_data = load_user_data('data.json')  # Get json file of large user data
 
     # Create pandas DataFrame
     df = pd.DataFrame(user_data)
 
-    # numeric features for the device brand and device plan of each user based on mappings
+    # Handle missing values
+    df['Device_Brand'].fillna('Unknown', inplace=True)  # Replace NaN in Device_Brand with 'Unknown'
+    df['Device_Plan'].fillna('Unknown', inplace=True)  # Replace NaN in Device_Plan with 'Unknown'
+    df['Gender'].fillna('Unknown', inplace=True)  # Replace NaN in Gender with 'Unknown'
+    df['Age'].fillna(df['Age'].mean(), inplace=True)  # Replace NaN in Age with mean age
+
+    # Numeric features for the device brand and device plan of each user based on mappings
     df['brand'] = df['Device_Brand'].map(brand_mapping)
     df['plan'] = df['Device_Plan'].map(plan_mapping)
     df['Gender'] = df['Gender'].map(gender_mapping)
@@ -31,7 +36,7 @@ def gradientBoostingClassifier(new_user_json):
 
     predictorVal = df['class'].values  # Classes (provider) will be what is predicted
 
-    # HistGradientBoostingClassifier, handles missing values NaN.
+    # HistGradientBoostingClassifier handles missing values NaN.
     model = HistGradientBoostingClassifier()
     model.fit(userDataQueries, predictorVal)
 
@@ -55,7 +60,7 @@ def gradientBoostingClassifier(new_user_json):
     new_user_x = brand_mapping[new_brand]
     new_user_y = plan_mapping[new_plan]
     new_user_gender = gender_mapping[new_gender]
-    new_user_age = new_user['Age']
+    new_user_age = new_user.get('Age', df['Age'].mean())  # Use mean age if Age is missing
     new_user_point = [[new_user_x, new_user_y, new_user_gender, new_user_age]]
 
     # Predicted class labels for the user
@@ -64,5 +69,4 @@ def gradientBoostingClassifier(new_user_json):
     predicted_provider = [k for k, v in provider_mapping.items() if v == predicted_class[0]][0]
 
     return int(predicted_class[0]), str(predicted_provider)
-
 
