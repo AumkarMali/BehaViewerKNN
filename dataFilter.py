@@ -4,7 +4,6 @@ import requests
 import json
 import os
 
-
 app = Flask(__name__)
 CORS(app)  # Enable CORS to allow requests from your React app
 
@@ -23,7 +22,6 @@ def load_user_data(filename='data.json'):
     if os.path.exists(filename):
         with open(filename, 'r') as file:
             return json.load(file)
-
     return {"details": []}  # Return an empty structure if file does not exist
 
 # Function to save user data to data.json
@@ -43,8 +41,9 @@ def send_user_data(userd):
         response = requests.get(url, params={'data': user_data_json})
         response.raise_for_status()  # Raise an error for bad responses
 
-        print(response.json()) # HERE IS THE OUTPUT PREDICTION
-        return response.json()  # Return the response JSON
+        response_data = response.json()  # Get the JSON response
+        print("Response from external service:", response_data)  # Print the response
+        return response_data  # Return the response JSON
     except requests.exceptions.RequestException as e:
         print("Error sending user data:", e)
         return {"error": str(e)}
@@ -89,13 +88,13 @@ def get_user_info():
     if age:
         user_data["Age"] = int(age) if age.isdigit() else None
 
-    # Send user data to external service and append to data.json
+    # Save the user data to data.json
     save_user_data(user_data)  # Save the user data to data.json
 
-
+    # Send user data to the external service
+    r
 
     return jsonify(user_data)  # Return the updated user data
-
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)  # Run on port 5000
