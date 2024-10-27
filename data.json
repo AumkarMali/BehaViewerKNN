@@ -1,0 +1,676 @@
+{
+  "details": [
+    {
+      "name": "Aarav Sharma",
+      "provider": "Bell",
+      "Device_Brand": "iPhone 12 Mini",
+      "Device_Plan": "Contract",
+      "Gender": "Male",
+      "Age": 29
+    },
+    {
+      "name": "Linh Nguyen",
+      "provider": "Rogers",
+      "Device_Brand": "Samsung Galaxy S20",
+      "Device_Plan": "Leasing",
+      "Gender": "Female",
+      "Age": 26
+    },
+    {
+      "name": "Carlos Martinez",
+      "provider": "Telus",
+      "Device_Brand": "Google Pixel 7",
+      "Device_Plan": "Prepaid",
+      "Gender": "Male",
+      "Age": 33
+    },
+    {
+      "name": "Aisha Khan",
+      "provider": "Bell",
+      "Device_Brand": "OnePlus 8T",
+      "Device_Plan": "Contract",
+      "Gender": "Female",
+      "Age": 30
+    },
+    {
+      "name": "Kwame Osei",
+      "provider": "Rogers",
+      "Device_Brand": "Samsung Galaxy Note 10",
+      "Device_Plan": "Leasing",
+      "Gender": "Male",
+      "Age": 37
+    },
+    {
+      "name": "Julia Ivanova",
+      "provider": "Telus",
+      "Device_Brand": "iPhone 13",
+      "Device_Plan": "Prepaid",
+      "Gender": "Female",
+      "Age": 25
+    },
+    {
+      "name": "Chloe Zhang",
+      "provider": "Bell",
+      "Device_Brand": "Huawei P40 Pro",
+      "Device_Plan": "Contract",
+      "Gender": "Female",
+      "Age": 28
+    },
+    {
+      "name": "Ahmed Hassan",
+      "provider": "Rogers",
+      "Device_Brand": "Xiaomi Mi 10",
+      "Device_Plan": "Prepaid",
+      "Gender": "Male",
+      "Age": 34
+    },
+    {
+      "name": "Yuki Tanaka",
+      "provider": "Telus",
+      "Device_Brand": "Sony Xperia 10 II",
+      "Device_Plan": "Contract",
+      "Gender": "Male",
+      "Age": 24
+    },
+    {
+      "name": "Marta Nowak",
+      "provider": "Bell",
+      "Device_Brand": "iPhone SE",
+      "Device_Plan": "Contract",
+      "Gender": "Female",
+      "Age": 31
+    },
+    {
+      "name": "Carlos Rivera",
+      "provider": "Rogers",
+      "Device_Brand": "Google Pixel 5",
+      "Device_Plan": "Leasing",
+      "Gender": "Male",
+      "Age": 35
+    },
+    {
+      "name": "Fatima Ali",
+      "provider": "Telus",
+      "Device_Brand": "Samsung Galaxy S21 Ultra",
+      "Device_Plan": "Prepaid",
+      "Gender": "Female",
+      "Age": 27
+    },
+    {
+      "name": "Lucas Silva",
+      "provider": "Bell",
+      "Device_Brand": "OnePlus Nord",
+      "Device_Plan": "Contract",
+      "Gender": "Male",
+      "Age": 29
+    },
+    {
+      "name": "Sara Patel",
+      "provider": "Rogers",
+      "Device_Brand": "Oppo Reno 4",
+      "Device_Plan": "Leasing",
+      "Gender": "Female",
+      "Age": 32
+    },
+    {
+      "name": "Dae-Hyun Kim",
+      "provider": "Telus",
+      "Device_Brand": "Samsung Galaxy Z Fold 2",
+      "Device_Plan": "Prepaid",
+      "Gender": "Male",
+      "Age": 40
+    },
+    {
+      "name": "Mia Garcia",
+      "provider": "Bell",
+      "Device_Brand": "iPhone XR",
+      "Device_Plan": "Contract",
+      "Gender": "Female",
+      "Age": 23
+    },
+    {
+      "name": "Ibrahim Musa",
+      "provider": "Rogers",
+      "Device_Brand": "Xiaomi Redmi Note 9",
+      "Device_Plan": "Prepaid",
+      "Gender": "Male",
+      "Age": 28
+    },
+    {
+      "name": "Elena Popov",
+      "provider": "Telus",
+      "Device_Brand": "Google Pixel 4a",
+      "Device_Plan": "Contract",
+      "Gender": "Female",
+      "Age": 27
+    },
+    {
+      "name": "Aliya Rahman",
+      "provider": "Bell",
+      "Device_Brand": "Samsung Galaxy A51",
+      "Device_Plan": "Leasing",
+      "Gender": "Female",
+      "Age": 30
+    },
+    {
+      "name": "Omar Aziz",
+      "provider": "Rogers",
+      "Device_Brand": "iPhone 11 Pro",
+      "Device_Plan": "Contract",
+      "Gender": "Male",
+      "Age": 36
+    },
+    {
+      "name": "Emma Brown",
+      "provider": "Telus",
+      "Device_Brand": "Sony Xperia 5",
+      "Device_Plan": "Prepaid",
+      "Gender": "Female",
+      "Age": 32
+    },
+    {
+      "name": "Nicolas Fernandez",
+      "provider": "Bell",
+      "Device_Brand": "Huawei Mate 30",
+      "Device_Plan": "Contract",
+      "Gender": "Male",
+      "Age": 29
+    },
+    {
+      "name": "Amina Said",
+      "provider": "Rogers",
+      "Device_Brand": "Oppo A74",
+      "Device_Plan": "Prepaid",
+      "Gender": "Female",
+      "Age": 25
+    },
+    {
+      "name": "Louis Tremblay",
+      "provider": "Telus",
+      "Device_Brand": "Google Pixel 3",
+      "Device_Plan": "Contract",
+      "Gender": "Male",
+      "Age": 34
+    },
+    {
+      "name": "Layla Ahmed",
+      "provider": "Bell",
+      "Device_Brand": "Samsung Galaxy A31",
+      "Device_Plan": "Leasing",
+      "Gender": "Female",
+      "Age": 28
+    },
+    {
+      "name": "Thomas Müller",
+      "provider": "Rogers",
+      "Device_Brand": "Sony Xperia L4",
+      "Device_Plan": "Contract",
+      "Gender": "Male",
+      "Age": 38
+    },
+    {
+      "name": "Evelyn Jones",
+      "provider": "Telus",
+      "Device_Brand": "iPhone X",
+      "Device_Plan": "Prepaid",
+      "Gender": "Female",
+      "Age": 27
+    },
+    {
+      "name": "Samuel Adom",
+      "provider": "Bell",
+      "Device_Brand": "Huawei P30 Lite",
+      "Device_Plan": "Leasing",
+      "Gender": "Male",
+      "Age": 31
+    },
+    {
+      "name": "Amara Singh",
+      "provider": "Rogers",
+      "Device_Brand": "Samsung Galaxy M31",
+      "Device_Plan": "Contract",
+      "Gender": "Female",
+      "Age": 26
+    },
+    {
+      "name": "Bao Li",
+      "provider": "Telus",
+      "Device_Brand": "OnePlus 7T",
+      "Device_Plan": "Prepaid",
+      "Gender": "Male",
+      "Age": 33
+    },
+    {
+      "name": "Emma Toure",
+      "provider": "Bell",
+      "Device_Brand": "iPhone 12 Pro",
+      "Device_Plan": "Contract",
+      "Gender": "Female",
+      "Age": 30
+    },
+    {
+      "name": "Mikhail Petrov",
+      "provider": "Rogers",
+      "Device_Brand": "Google Pixel 6 Pro",
+      "Device_Plan": "Leasing",
+      "Gender": "Male",
+      "Age": 29
+    },
+    {
+      "name": "Grace Chen",
+      "provider": "Telus",
+      "Device_Brand": "Samsung Galaxy S22",
+      "Device_Plan": "Contract",
+      "Gender": "Female",
+      "Age": 34
+    },
+    {
+      "name": "Miguel Santos",
+      "provider": "Bell",
+      "Device_Brand": "iPhone 13 Pro",
+      "Device_Plan": "Contract",
+      "Gender": "Male",
+      "Age": 27
+    },
+    {
+      "name": "Amal Hassan",
+      "provider": "Rogers",
+      "Device_Brand": "Sony Xperia 1 II",
+      "Device_Plan": "Leasing",
+      "Gender": "Female",
+      "Age": 30
+    },
+    {
+      "name": "Nour El-Sayed",
+      "provider": "Telus",
+      "Device_Brand": "OnePlus 9 Pro",
+      "Device_Plan": "Prepaid",
+      "Gender": "Female",
+      "Age": 28
+    },
+    {
+      "name": "Lucie Leclerc",
+      "provider": "Bell",
+      "Device_Brand": "Huawei Mate 40",
+      "Device_Plan": "Contract",
+      "Gender": "Female",
+      "Age": 36
+    },
+    {
+      "name": "Dmitri Ivanov",
+      "provider": "Rogers",
+      "Device_Brand": "Google Pixel 4 XL",
+      "Device_Plan": "Leasing",
+      "Gender": "Male",
+      "Age": 35
+    },
+    {
+      "name": "Zara Khan",
+      "provider": "Telus",
+      "Device_Brand": "Samsung Galaxy A52",
+      "Device_Plan": "Prepaid",
+      "Gender": "Female",
+      "Age": 32
+    },
+    {
+      "name": "Diego Marquez",
+      "provider": "Bell",
+      "Device_Brand": "iPhone 11",
+      "Device_Plan": "Contract",
+      "Gender": "Male",
+      "Age": 31
+    },
+    {
+      "name": "Aya Nakamura",
+      "provider": "Rogers",
+      "Device_Brand": "Sony Xperia 5 II",
+      "Device_Plan": "Leasing",
+      "Gender": "Female",
+      "Age": 26
+    },
+    {
+      "name": "Hassan Farah",
+      "provider": "Telus",
+      "Device_Brand": "Huawei P30",
+      "Device_Plan": "Prepaid",
+      "Gender": "Male",
+      "Age": 29
+    },
+    {
+      "name": "Tomiko Sato",
+      "provider": "Bell",
+      "Device_Brand": "Google Pixel 5a",
+      "Device_Plan": "Contract",
+      "Gender": "Female",
+      "Age": 28
+    },
+    {
+      "name": "Kevin Park",
+      "provider": "Rogers",
+      "Device_Brand": "iPhone 12",
+      "Device_Plan": "Leasing",
+      "Gender": "Male",
+      "Age": 27
+    },
+    {
+      "name": "Lily Wilson",
+      "provider": "Telus",
+      "Device_Brand": "Samsung Galaxy Note 20",
+      "Device_Plan": "Prepaid",
+      "Gender": "Female",
+      "Age": 29
+    },
+    {
+      "name": "Xavier Mendes",
+      "provider": "Bell",
+      "Device_Brand": "OnePlus Nord N10",
+      "Device_Plan": "Contract",
+      "Gender": "Male",
+      "Age": 25
+    },
+    {
+      "name": "Priya Patel",
+      "provider": "Rogers",
+      "Device_Brand": "Oppo Find X2",
+      "Device_Plan": "Leasing",
+      "Gender": "Female",
+      "Age": 33
+    },
+    {
+      "name": "Mario Rossi",
+      "provider": "Telus",
+      "Device_Brand": "Samsung Galaxy S10",
+      "Device_Plan": "Prepaid",
+      "Gender": "Male",
+      "Age": 30
+    },
+    {
+      "name": "Naomi Clarke",
+      "provider": "Bell",
+      "Device_Brand": "Google Pixel 6a",
+      "Device_Plan": "Contract",
+      "Gender": "Female",
+      "Age": 35
+    },
+    {
+      "name": "Shawn Wu",
+      "provider": "Rogers",
+      "Device_Brand": "iPhone SE 2020",
+      "Device_Plan": "Leasing",
+      "Gender": "Male",
+      "Age": 28
+    },
+    {
+      "name": "Tariq Abdallah",
+      "provider": "Telus",
+      "Device_Brand": "OnePlus 7 Pro",
+      "Device_Plan": "Prepaid",
+      "Gender": "Male",
+      "Age": 27
+    },
+    {
+      "name": "Zoe Kim",
+      "provider": "Bell",
+      "Device_Brand": "Samsung Galaxy A72",
+      "Device_Plan": "Contract",
+      "Gender": "Female",
+      "Age": 24
+    },
+    {
+      "name": "Amir Bakri",
+      "provider": "Rogers",
+      "Device_Brand": "Huawei Nova 7i",
+      "Device_Plan": "Leasing",
+      "Gender": "Male",
+      "Age": 34
+    },
+    {
+      "name": "Sofia Oliveira",
+      "provider": "Telus",
+      "Device_Brand": "Google Pixel 3a",
+      "Device_Plan": "Prepaid",
+      "Gender": "Female",
+      "Age": 26
+    },
+    {
+      "name": "Sara Patel",
+      "provider": "Rogers",
+      "Device_Brand": "Oppo Reno 4",
+      "Device_Plan": "Leasing",
+      "Gender": "Female",
+      "Age": 32
+    },
+    {
+      "name": "Liam Turner",
+      "provider": "Bell",
+      "Device_Brand": "iPhone 12",
+      "Device_Plan": "Contract",
+      "Gender": "Male",
+      "Age": 24
+    },
+    {
+      "name": "Ava Martinez",
+      "provider": "Telus",
+      "Device_Brand": "Samsung Galaxy A51",
+      "Device_Plan": "Prepaid",
+      "Gender": "Female",
+      "Age": 29
+    },
+    {
+      "name": "Noah Kim",
+      "provider": "Rogers",
+      "Device_Brand": "Google Pixel 5",
+      "Device_Plan": "Leasing",
+      "Gender": "Male",
+      "Age": 35
+    },
+    {
+      "name": "Sophia Clark",
+      "provider": "Telus",
+      "Device_Brand": "Sony Xperia 10 II",
+      "Device_Plan": "Contract",
+      "Gender": "Female",
+      "Age": 31
+    },
+    {
+      "name": "Elijah Brown",
+      "provider": "Bell",
+      "Device_Brand": "OnePlus Nord",
+      "Device_Plan": "Prepaid",
+      "Gender": "Male",
+      "Age": 27
+    },
+    {
+      "name": "Mia Wilson",
+      "provider": "Rogers",
+      "Device_Brand": "Xiaomi Mi 10",
+      "Device_Plan": "Contract",
+      "Gender": "Female",
+      "Age": 30
+    },
+    {
+      "name": "James Lee",
+      "provider": "Telus",
+      "Device_Brand": "Oppo Find X2",
+      "Device_Plan": "Leasing",
+      "Gender": "Male",
+      "Age": 40
+    },
+    {
+      "name": "Charlotte Harris",
+      "provider": "Bell",
+      "Device_Brand": "Nokia 8.3",
+      "Device_Plan": "Prepaid",
+      "Gender": "Female",
+      "Age": 26
+    },
+    {
+      "name": "Benjamin Walker",
+      "provider": "Rogers",
+      "Device_Brand": "Google Pixel 4a",
+      "Device_Plan": "Contract",
+      "Gender": "Male",
+      "Age": 34
+    },
+    {
+      "name": "Amelia Hall",
+      "provider": "Bell",
+      "Device_Brand": "Samsung Galaxy S20",
+      "Device_Plan": "Leasing",
+      "Gender": "Female",
+      "Age": 29
+    },
+    {
+      "name": "Ethan Young",
+      "provider": "Telus",
+      "Device_Brand": "iPhone SE",
+      "Device_Plan": "Prepaid",
+      "Gender": "Male",
+      "Age": 23
+    },
+    {
+      "name": "Isabella King",
+      "provider": "Rogers",
+      "Device_Brand": "Oppo A74",
+      "Device_Plan": "Contract",
+      "Gender": "Female",
+      "Age": 28
+    },
+    {
+      "name": "Lucas Scott",
+      "provider": "Bell",
+      "Device_Brand": "Sony Xperia 5 II",
+      "Device_Plan": "Leasing",
+      "Gender": "Male",
+      "Age": 37
+    },
+    {
+      "name": "Harper Wright",
+      "provider": "Telus",
+      "Device_Brand": "OnePlus 8 Pro",
+      "Device_Plan": "Contract",
+      "Gender": "Female",
+      "Age": 34
+    },
+    {
+      "name": "Henry Green",
+      "provider": "Rogers",
+      "Device_Brand": "Samsung Galaxy Note 10",
+      "Device_Plan": "Prepaid",
+      "Gender": "Male",
+      "Age": 30
+    },
+    {
+      "name": "Evelyn Lewis",
+      "provider": "Bell",
+      "Device_Brand": "Xiaomi Mi 9",
+      "Device_Plan": "Contract",
+      "Gender": "Female",
+      "Age": 25
+    },
+    {
+      "name": "Alexander Rivera",
+      "provider": "Telus",
+      "Device_Brand": "Google Pixel 4",
+      "Device_Plan": "Leasing",
+      "Gender": "Male",
+      "Age": 39
+    },
+    {
+      "name": "Ella Baker",
+      "provider": "Rogers",
+      "Device_Brand": "OnePlus 7T",
+      "Device_Plan": "Prepaid",
+      "Gender": "Female",
+      "Age": 33
+    },
+    {
+      "name": "Daniel Adams",
+      "provider": "Bell",
+      "Device_Brand": "Nokia 5.4",
+      "Device_Plan": "Contract",
+      "Gender": "Male",
+      "Age": 36
+    },
+    {
+      "name": "Scarlett Perez",
+      "provider": "Telus",
+      "Device_Brand": "iPhone XR",
+      "Device_Plan": "Leasing",
+      "Gender": "Female",
+      "Age": 22
+    },
+    {
+      "name": "Matthew Nelson",
+      "provider": "Rogers",
+      "Device_Brand": "Samsung Galaxy A71",
+      "Device_Plan": "Prepaid",
+      "Gender": "Male",
+      "Age": 31
+    },
+    {
+      "name": "Chloe Rodriguez",
+      "provider": "Bell",
+      "Device_Brand": "Google Pixel 3",
+      "Device_Plan": "Contract",
+      "Gender": "Female",
+      "Age": 24
+    },
+    {
+      "name": "Joseph Martinez",
+      "provider": "Telus",
+      "Device_Brand": "Sony Xperia XZ2",
+      "Device_Plan": "Leasing",
+      "Gender": "Male",
+      "Age": 38
+    },
+    {
+      "name": "Grace Campbell",
+      "provider": "Rogers",
+      "Device_Brand": "Oppo A92",
+      "Device_Plan": "Contract",
+      "Gender": "Female",
+      "Age": 35
+    },
+    {
+      "name": "Michael Parker",
+      "provider": "Bell",
+      "Device_Brand": "Xiaomi Redmi Note 9",
+      "Device_Plan": "Prepaid",
+      "Gender": "Male",
+      "Age": 27
+    },
+    {
+      "name": "Zoe Sanchez",
+      "provider": "Telus",
+      "Device_Brand": "iPhone 11",
+      "Device_Plan": "Contract",
+      "Gender": "Female",
+      "Age": 30
+    },
+    {
+      "name": "Jack Cox",
+      "provider": "Rogers",
+      "Device_Brand": "Samsung Galaxy M31",
+      "Device_Plan": "Leasing",
+      "Gender": "Male",
+      "Age": 42
+    },
+    {
+      "name": "Victoria Howard",
+      "provider": "Bell",
+      "Device_Brand": "OnePlus 6T",
+      "Device_Plan": "Prepaid",
+      "Gender": "Female",
+      "Age": 28
+    },
+    {
+      "name": "William Phillips",
+      "provider": "Telus",
+      "Device_Brand": "Google Pixel 6",
+      "Device_Plan": "Contract",
+      "Gender": "Male",
+      "Age": 41
+    }
+  ]
+}
